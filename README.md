@@ -1,1 +1,1 @@
-# Technical Ana
+# Technical Analysis for Go
