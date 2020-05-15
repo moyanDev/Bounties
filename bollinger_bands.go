@@ -6,4 +6,5 @@ Licensed under terms of MIT license (see LICENSE)
 package tago
 
 /*
-BollingerBa
+BollingerBands
+The Bollinger Bands
