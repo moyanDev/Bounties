@@ -7,4 +7,4 @@ package tago
 
 /*
 BollingerBands
-The Bollinger Bands
+The Bollinger Bands are represented by Average EMA
