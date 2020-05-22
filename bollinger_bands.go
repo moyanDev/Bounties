@@ -7,4 +7,6 @@ package tago
 
 /*
 BollingerBands
-The Bollinger Bands are represented by Average EMA and standard deviaton that is moved 'k' times away in both directions from 
+The Bollinger Bands are represented by Average EMA and standard deviaton that is moved 'k' times away in both directions from calculated average value.
+
+# For
