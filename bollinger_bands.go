@@ -11,4 +11,6 @@ The Bollinger Bands are represented by Average EMA and standard deviaton that is
 
 # Formula
 
-See SMA, SD documen
+See SMA, SD documentation.
+
+* _BB<sub>Midd
