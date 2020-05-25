@@ -13,4 +13,4 @@ The Bollinger Bands are represented by Average EMA and standard deviaton that is
 
 See SMA, SD documentation.
 
-* _BB<sub>Middle Band</sub>_ - Si
+* _BB<sub>Middle Band</sub>_ - Simple Moving Aver
