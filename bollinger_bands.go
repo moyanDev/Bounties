@@ -24,3 +24,5 @@ See SMA, SD documentation.
 # Example
 ```
 ```
+*/
+type BollingerBands st
