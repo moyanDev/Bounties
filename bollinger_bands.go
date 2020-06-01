@@ -25,4 +25,5 @@ See SMA, SD documentation.
 ```
 ```
 */
-type BollingerBands st
+type BollingerBands struct {
+	// number of peri
