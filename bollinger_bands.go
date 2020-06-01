@@ -15,4 +15,4 @@ See SMA, SD documentation.
 
 * _BB<sub>Middle Band</sub>_ - Simple Moving Average (SMA).
 * _BB<sub>Upper Band</sub>_ = SMA + SD of observation * multipler (usually 2.0)
-* _BB<sub>Lower Band</sub>_ = SMA - SD of
+* _BB<sub>Lower Band</sub>_ = SMA - SD of observation * multip
