@@ -19,4 +19,8 @@ See SMA, SD documentation.
 
 # Parameters
 
-* _n_ - number of periods (integer greater th
+* _n_ - number of periods (integer greater than 0)
+
+# Example
+```
+```
