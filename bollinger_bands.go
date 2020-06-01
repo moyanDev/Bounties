@@ -19,4 +19,4 @@ See SMA, SD documentation.
 
 # Parameters
 
-* _n_ - number of p
+* _n_ - number of periods (integer greater th
