@@ -26,4 +26,4 @@ See SMA, SD documentation.
 ```
 */
 type BollingerBands struct {
-	// number of peri
+	// number of periods (must be an int
