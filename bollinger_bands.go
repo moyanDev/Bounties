@@ -27,4 +27,5 @@ See SMA, SD documentation.
 */
 type BollingerBands struct {
 	// number of periods (must be an integer greater than 0)
-	n
+	n          int
+	multi
