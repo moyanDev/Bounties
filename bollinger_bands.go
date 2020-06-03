@@ -30,4 +30,5 @@ type BollingerBands struct {
 	n          int
 	multiplier int
 
-	// internal par
+	// internal parameters for calculations
+	
