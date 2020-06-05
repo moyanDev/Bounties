@@ -31,4 +31,7 @@ type BollingerBands struct {
 	multiplier int
 
 	// internal parameters for calculations
-	sd *StandardDev
+	sd *StandardDeviation
+}
+
+// // NewBollin
