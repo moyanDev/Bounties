@@ -34,4 +34,4 @@ type BollingerBands struct {
 	sd *StandardDeviation
 }
 
-// // NewBollin
+// // NewBollingerBands creates a 
