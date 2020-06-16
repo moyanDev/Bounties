@@ -35,4 +35,5 @@ type BollingerBands struct {
 }
 
 // // NewBollingerBands creates a new BollingerBands with the given number of periods
-// // Example: NewBollingerBa
+// // Example: NewBollingerBands(9)
+// func NewBollingerBa
