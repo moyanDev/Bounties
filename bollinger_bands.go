@@ -41,4 +41,4 @@ type BollingerBands struct {
 // 		return nil, ErrInvalidParameters
 // 	}
 
-// 	sd, er
+// 	sd, err := NewStandardDeviat
