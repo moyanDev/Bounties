@@ -38,4 +38,4 @@ type BollingerBands struct {
 // // Example: NewBollingerBands(9)
 // func NewBollingerBands(n, multiplier int) (*BollingerBands, error) {
 // 	if n <= 0 || multiplier <= 0 {
-// 		
+// 		return nil, ErrInvalidPa
