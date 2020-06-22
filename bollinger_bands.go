@@ -45,4 +45,5 @@ type BollingerBands struct {
 // 	if err != nil {
 // 		return nil, err
 // 	}
-//
+// 	return &BollingerBands{
+// 		n:
