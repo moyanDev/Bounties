@@ -46,4 +46,5 @@ type BollingerBands struct {
 // 		return nil, err
 // 	}
 // 	return &BollingerBands{
-// 		n:
+// 		n:          n,
+// 		multiplie
