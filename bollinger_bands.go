@@ -47,4 +47,7 @@ type BollingerBands struct {
 // 	}
 // 	return &BollingerBands{
 // 		n:          n,
-// 		multiplie
+// 		multiplier: multiplier,
+
+// 		sd: sd,
+// 	}, n
