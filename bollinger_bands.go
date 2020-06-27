@@ -50,4 +50,7 @@ type BollingerBands struct {
 // 		multiplier: multiplier,
 
 // 		sd: sd,
-// 	}, n
+// 	}, nil
+// }
+
+// // Next takes th
