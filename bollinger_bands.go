@@ -53,4 +53,4 @@ type BollingerBands struct {
 // 	}, nil
 // }
 
-// // Next takes the next input and retur
+// // Next takes the next input and returns the next BollingerBands 
