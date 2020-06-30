@@ -54,4 +54,4 @@ type BollingerBands struct {
 // }
 
 // // Next takes the next input and returns the next BollingerBands value
-// func (bb *BollingerB
+// func (bb *BollingerBands) Next(input float64
