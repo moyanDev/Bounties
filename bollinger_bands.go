@@ -59,4 +59,4 @@ type BollingerBands struct {
 // 	// mean := bb.sd.Mean()
 
 // 	// return mean + float64(bb.multiplier)*sd, mean, mean - float64(bb.multiplier)*sd
-// 
+// }
