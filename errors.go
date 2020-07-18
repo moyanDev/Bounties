@@ -8,4 +8,4 @@ package tago
 import "errors"
 
 var (
-	E
+	ErrInvalidParameters = errors.
