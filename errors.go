@@ -5,4 +5,7 @@ Licensed under terms of MIT license (see LICENSE)
 
 package tago
 
-im
+import "errors"
+
+var (
+	E
