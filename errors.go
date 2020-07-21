@@ -8,4 +8,4 @@ package tago
 import "errors"
 
 var (
-	ErrInvalidParameters = errors.
+	ErrInvalidParameters = errors.New("invalid parameter")
