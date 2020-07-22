@@ -9,3 +9,4 @@ import "errors"
 
 var (
 	ErrInvalidParameters = errors.New("invalid parameter")
+)
