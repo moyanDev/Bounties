@@ -1,1 +1,3 @@
-module github.com/binhngu
+module github.com/binhnguyenduc/tago
+
+go 1.13
