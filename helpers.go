@@ -1,3 +1,3 @@
 /*
 Copyright 2020 Binh Nguyen
-Licensed unde
+Licensed under terms of MIT license (see
