@@ -8,4 +8,7 @@ package tago
 import (
 	"math"
 
-	"github.com/google/go-c
+	"github.com/google/go-cmp/cmp"
+)
+
+const (
