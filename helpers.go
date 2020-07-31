@@ -15,4 +15,4 @@ const (
 	tolerance = 0.001
 )
 
-var f
+var floatComparer = cmp.Co
