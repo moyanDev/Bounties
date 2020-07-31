@@ -12,3 +12,7 @@ import (
 )
 
 const (
+	tolerance = 0.001
+)
+
+var f
