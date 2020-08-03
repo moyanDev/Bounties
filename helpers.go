@@ -15,4 +15,4 @@ const (
 	tolerance = 0.001
 )
 
-var floatComparer = cmp.Co
+var floatComparer = cmp.Comparer(func(x, y float6
