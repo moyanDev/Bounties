@@ -16,4 +16,5 @@ const (
 )
 
 var floatComparer = cmp.Comparer(func(x, y float64) bool {
-	diff := math.Ab
+	diff := math.Abs(x - y)
+	mean := 
