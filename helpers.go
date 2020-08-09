@@ -18,4 +18,5 @@ const (
 var floatComparer = cmp.Comparer(func(x, y float64) bool {
 	diff := math.Abs(x - y)
 	mean := math.Abs(x+y) / 2.0
-	if math.IsN
+	if math.IsNaN(diff / mean) {
+		r
