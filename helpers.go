@@ -21,4 +21,5 @@ var floatComparer = cmp.Comparer(func(x, y float64) bool {
 	if math.IsNaN(diff / mean) {
 		return true
 	}
-	return (diff / 
+	return (diff / mean) < tolerance
+})
