@@ -10,4 +10,5 @@ import (
 	"math"
 )
 
-/
+/*
+Maximum returns the high
