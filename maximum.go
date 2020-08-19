@@ -13,4 +13,6 @@ import (
 /*
 Maximum returns the highest value in a given time frame
 
-# Para
+# Parameters
+
+* _n_ - size o
