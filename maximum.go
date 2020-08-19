@@ -11,4 +11,6 @@ import (
 )
 
 /*
-Maximum returns the high
+Maximum returns the highest value in a given time frame
+
+# Para
