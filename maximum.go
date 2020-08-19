@@ -15,4 +15,4 @@ Maximum returns the highest value in a given time frame
 
 # Parameters
 
-* _n_ - size o
+* _n_ - size of time frame (integer greater
