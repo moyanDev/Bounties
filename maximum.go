@@ -27,4 +27,6 @@ type Maximum struct {
 
 	// internal parameters for calculations
 	maxIndex int
-	curI
+	curIndex int
+
+	// sli
