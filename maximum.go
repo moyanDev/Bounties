@@ -25,4 +25,6 @@ type Maximum struct {
 	// number of periods (must be an integer greater than 0)
 	n int
 
-	// internal parameters fo
+	// internal parameters for calculations
+	maxIndex int
+	curI
