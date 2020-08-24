@@ -19,4 +19,6 @@ Maximum returns the highest value in a given time frame
 
 # Example
 ```
-`
+```
+*/
+type Maximum struct
