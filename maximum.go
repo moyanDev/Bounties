@@ -22,4 +22,4 @@ Maximum returns the highest value in a given time frame
 ```
 */
 type Maximum struct {
-	// number of pe
+	// number of periods (must be an integer gre
