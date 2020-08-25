@@ -29,4 +29,4 @@ type Maximum struct {
 	maxIndex int
 	curIndex int
 
-	// sli
+	// slice of data needed for 
