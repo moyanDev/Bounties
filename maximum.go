@@ -29,4 +29,6 @@ type Maximum struct {
 	maxIndex int
 	curIndex int
 
-	// slice of data needed for 
+	// slice of data needed for calculation
+	data []float64
+}
