@@ -32,3 +32,5 @@ type Maximum struct {
 	// slice of data needed for calculation
 	data []float64
 }
+
+// NewMaximum creates a new 
