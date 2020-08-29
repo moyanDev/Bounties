@@ -33,4 +33,4 @@ type Maximum struct {
 	data []float64
 }
 
-// NewMaximum creates a new 
+// NewMaximum creates a new Maximum with the g
