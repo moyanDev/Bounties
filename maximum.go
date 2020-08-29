@@ -33,4 +33,5 @@ type Maximum struct {
 	data []float64
 }
 
-// NewMaximum creates a new Maximum with the g
+// NewMaximum creates a new Maximum with the given number of periods
+// Exa
