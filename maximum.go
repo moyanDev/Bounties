@@ -34,4 +34,5 @@ type Maximum struct {
 }
 
 // NewMaximum creates a new Maximum with the given number of periods
-// Exa
+// Example: NewMaximum(9)
+func 
