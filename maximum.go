@@ -35,4 +35,5 @@ type Maximum struct {
 
 // NewMaximum creates a new Maximum with the given number of periods
 // Example: NewMaximum(9)
-func NewMaximum(n int) (*Maxim
+func NewMaximum(n int) (*Maximum, error) {
+	if n <= 0 {
