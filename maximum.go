@@ -37,3 +37,4 @@ type Maximum struct {
 // Example: NewMaximum(9)
 func NewMaximum(n int) (*Maximum, error) {
 	if n <= 0 {
+		return nil, ErrInvalidPar
