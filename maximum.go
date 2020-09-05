@@ -40,4 +40,5 @@ func NewMaximum(n int) (*Maximum, error) {
 		return nil, ErrInvalidParameters
 	}
 
-	data := make([]float64, n
+	data := make([]float64, n)
+	for i := range data {
