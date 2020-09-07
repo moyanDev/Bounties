@@ -42,4 +42,7 @@ func NewMaximum(n int) (*Maximum, error) {
 
 	data := make([]float64, n)
 	for i := range data {
-		data[i] = math.Inf(-1
+		data[i] = math.Inf(-1)
+	}
+	return &Maximum{
+		
