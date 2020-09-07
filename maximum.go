@@ -45,4 +45,6 @@ func NewMaximum(n int) (*Maximum, error) {
 		data[i] = math.Inf(-1)
 	}
 	return &Maximum{
-		
+		n: n,
+
+		maxIndex: 
