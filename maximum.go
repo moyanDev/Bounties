@@ -47,4 +47,7 @@ func NewMaximum(n int) (*Maximum, error) {
 	return &Maximum{
 		n: n,
 
-		maxIndex: 
+		maxIndex: 0,
+		curIndex: 0,
+
+		data: d
