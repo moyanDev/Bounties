@@ -50,4 +50,8 @@ func NewMaximum(n int) (*Maximum, error) {
 		maxIndex: 0,
 		curIndex: 0,
 
-		data: d
+		data: data,
+	}, nil
+}
+
+// Next
