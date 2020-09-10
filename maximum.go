@@ -54,4 +54,4 @@ func NewMaximum(n int) (*Maximum, error) {
 	}, nil
 }
 
-// Next
+// Next takes the next input and 
