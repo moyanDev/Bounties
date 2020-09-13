@@ -55,4 +55,4 @@ func NewMaximum(n int) (*Maximum, error) {
 }
 
 // Next takes the next input and returns the next Maximum value
-fun
+func (m *Maximum) Next(input f
