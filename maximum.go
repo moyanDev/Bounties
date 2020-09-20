@@ -57,4 +57,5 @@ func NewMaximum(n int) (*Maximum, error) {
 // Next takes the next input and returns the next Maximum value
 func (m *Maximum) Next(input float64) float64 {
 	// add input to data
-	m.curIndex = (m.curIndex + 1) % m.
+	m.curIndex = (m.curIndex + 1) % m.n
+	m.data[m.curIndex] = in
