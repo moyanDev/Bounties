@@ -66,4 +66,4 @@ func (m *Maximum) Next(input float64) float64 {
 		m.maxIndex = findMaxIndex(m.data)
 	}
 
-	
+	return m.data[m.maxIndex
