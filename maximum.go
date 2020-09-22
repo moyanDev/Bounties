@@ -58,4 +58,6 @@ func NewMaximum(n int) (*Maximum, error) {
 func (m *Maximum) Next(input float64) float64 {
 	// add input to data
 	m.curIndex = (m.curIndex + 1) % m.n
-	m.data[m.curIndex] = in
+	m.data[m.curIndex] = input
+
+	if input > m.da
