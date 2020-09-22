@@ -63,4 +63,7 @@ func (m *Maximum) Next(input float64) float64 {
 	if input > m.data[m.maxIndex] {
 		m.maxIndex = m.curIndex
 	} else if m.curIndex == m.maxIndex {
-		m.maxIndex = fin
+		m.maxIndex = findMaxIndex(m.data)
+	}
+
+	
