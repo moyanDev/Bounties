@@ -60,4 +60,5 @@ func (m *Maximum) Next(input float64) float64 {
 	m.curIndex = (m.curIndex + 1) % m.n
 	m.data[m.curIndex] = input
 
-	if input > m.da
+	if input > m.data[m.maxIndex] {
+		m.m
