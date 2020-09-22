@@ -69,4 +69,5 @@ func (m *Maximum) Next(input float64) float64 {
 	return m.data[m.maxIndex]
 }
 
-func findMaxIndex(data []flo
+func findMaxIndex(data []float64) int {
+	max := math.Inf(-1)
