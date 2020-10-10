@@ -76,4 +76,8 @@ func findMaxIndex(data []float64) int {
 	for i, v := range data {
 		if v > max {
 			max = v
-			i
+			index = i
+		}
+	}
+
+	return in
