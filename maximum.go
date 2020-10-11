@@ -80,4 +80,7 @@ func findMaxIndex(data []float64) int {
 		}
 	}
 
-	return in
+	return index
+}
+
+// Reset reset
