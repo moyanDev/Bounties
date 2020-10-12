@@ -83,4 +83,5 @@ func findMaxIndex(data []float64) int {
 	return index
 }
 
-// Reset resets the indicators to a c
+// Reset resets the indicators to a clean state
+func (m *Maxim
