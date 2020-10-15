@@ -85,4 +85,5 @@ func findMaxIndex(data []float64) int {
 
 // Reset resets the indicators to a clean state
 func (m *Maximum) Reset() {
-	data := mak
+	data := make([]float64, m.n)
+	for i := range
