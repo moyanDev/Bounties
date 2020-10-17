@@ -89,4 +89,6 @@ func (m *Maximum) Reset() {
 	for i := range data {
 		data[i] = math.Inf(-1)
 	}
-	m.dat
+	m.data = data
+	m.curIndex = 0
+	m.m
