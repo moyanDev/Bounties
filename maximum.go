@@ -87,4 +87,6 @@ func findMaxIndex(data []float64) int {
 func (m *Maximum) Reset() {
 	data := make([]float64, m.n)
 	for i := range data {
-		data[i] = m
+		data[i] = math.Inf(-1)
+	}
+	m.dat
