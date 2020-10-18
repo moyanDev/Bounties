@@ -91,4 +91,7 @@ func (m *Maximum) Reset() {
 	}
 	m.data = data
 	m.curIndex = 0
-	m.m
+	m.maxIndex = 0
+}
+
+func (m *M
