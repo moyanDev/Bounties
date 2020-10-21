@@ -94,4 +94,4 @@ func (m *Maximum) Reset() {
 	m.maxIndex = 0
 }
 
-func (m *M
+func (m *Maximum) String() string {
