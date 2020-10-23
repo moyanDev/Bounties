@@ -95,4 +95,5 @@ func (m *Maximum) Reset() {
 }
 
 func (m *Maximum) String() string {
-	return fmt.Sprintf("
+	return fmt.Sprintf("Max(%d)", m.n)
+}
