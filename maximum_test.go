@@ -5,3 +5,6 @@ Licensed under terms of MIT license (see LICENSE)
 
 package tago
 
+import (
+	"math"
+	"tes
