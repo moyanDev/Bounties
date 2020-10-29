@@ -7,4 +7,6 @@ package tago
 
 import (
 	"math"
-	"tes
+	"testing"
+
+	"github.com/google/g
