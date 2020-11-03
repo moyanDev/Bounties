@@ -13,4 +13,5 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestNewMaximum(t *t
+func TestNewMaximum(t *testing.T) {
+	data := make([]f
