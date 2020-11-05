@@ -15,4 +15,5 @@ import (
 
 func TestNewMaximum(t *testing.T) {
 	data := make([]float64, 9)
-	for i := range dat
+	for i := range data {
+		data[i] = math.Inf(
