@@ -19,4 +19,5 @@ func TestNewMaximum(t *testing.T) {
 		data[i] = math.Inf(-1)
 	}
 
-	tests := map[s
+	tests := map[string]struct {
+		input   int
