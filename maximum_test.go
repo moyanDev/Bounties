@@ -21,3 +21,5 @@ func TestNewMaximum(t *testing.T) {
 
 	tests := map[string]struct {
 		input   int
+		want    *Maximum
+		
