@@ -24,4 +24,5 @@ func TestNewMaximum(t *testing.T) {
 		want    *Maximum
 		wantErr error
 	}{
-		"negative n": {input: -3, want: nil, wantErr: ErrIn
+		"negative n": {input: -3, want: nil, wantErr: ErrInvalidParameters},
+		"zero n
