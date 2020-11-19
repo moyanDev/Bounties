@@ -29,4 +29,5 @@ func TestNewMaximum(t *testing.T) {
 		"positive n": {input: 9, want: &Maximum{n: 9, data: data}, wantErr: nil},
 	}
 
-	for name, tc := ra
+	for name, tc := range tests {
+		t.Run(name, 
