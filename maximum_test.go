@@ -30,4 +30,4 @@ func TestNewMaximum(t *testing.T) {
 	}
 
 	for name, tc := range tests {
-		t.Run(name, 
+		t.Run(name, func(t *testing.T) {
