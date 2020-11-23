@@ -32,4 +32,5 @@ func TestNewMaximum(t *testing.T) {
 	for name, tc := range tests {
 		t.Run(name, func(t *testing.T) {
 			gotSD, gotErr := NewMaximum(tc.input)
-			if tc.wantErr != nil { // only check error returned 
+			if tc.wantErr != nil { // only check error returned if expecting one
+				a
