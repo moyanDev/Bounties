@@ -33,4 +33,4 @@ func TestNewMaximum(t *testing.T) {
 		t.Run(name, func(t *testing.T) {
 			gotSD, gotErr := NewMaximum(tc.input)
 			if tc.wantErr != nil { // only check error returned if expecting one
-				assert.EqualError(t, gotErr, tc.wantErr.Err
+				assert.EqualError(t, gotErr, tc.wantErr.Error(), "must return the corre
