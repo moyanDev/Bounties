@@ -38,3 +38,6 @@ func TestNewMaximum(t *testing.T) {
 			assert.Equal(t, tc.want, gotSD, "must return the correct value")
 		})
 	}
+}
+
+func TestMaximumNex
