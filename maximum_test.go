@@ -43,4 +43,7 @@ func TestNewMaximum(t *testing.T) {
 func TestMaximumNext(t *testing.T) {
 	sd, _ := NewMaximum(3)
 	tests := []struct {
-		input 
+		input float64
+		want  float64
+	}{
+		{in
