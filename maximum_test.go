@@ -46,4 +46,4 @@ func TestMaximumNext(t *testing.T) {
 		input float64
 		want  float64
 	}{
-		{in
+		{input: 4., want: 4.},
