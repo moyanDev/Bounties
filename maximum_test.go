@@ -54,4 +54,6 @@ func TestMaximumNext(t *testing.T) {
 		{input: 0., want: 4.},
 		{input: -1., want: 4.},
 		{input: -2., want: 0.},
-		{input: -1.5, wa
+		{input: -1.5, want: -1.},
+	}
+	for _,
