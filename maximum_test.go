@@ -60,4 +60,5 @@ func TestMaximumNext(t *testing.T) {
 		t.Run("", func(t *testing.T) {
 			got := sd.Next(tc.input)
 			diff := cmp.Diff(tc.want, got, floatComparer)
-			if di
+			if diff != "" {
+				t.Fata
