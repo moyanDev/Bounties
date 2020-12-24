@@ -67,4 +67,5 @@ func TestMaximumNext(t *testing.T) {
 	}
 }
 
-func TestMaximumRe
+func TestMaximumReset(t *testing.T) {
+	sd, _ := N
