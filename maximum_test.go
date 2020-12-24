@@ -64,3 +64,7 @@ func TestMaximumNext(t *testing.T) {
 				t.Fatalf(diff)
 			}
 		})
+	}
+}
+
+func TestMaximumRe
