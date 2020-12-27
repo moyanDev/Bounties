@@ -69,4 +69,6 @@ func TestMaximumNext(t *testing.T) {
 
 func TestMaximumReset(t *testing.T) {
 	sd, _ := NewMaximum(3)
-	tests 
+	tests := []struct {
+		input float64
+		w
