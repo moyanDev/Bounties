@@ -71,4 +71,6 @@ func TestMaximumReset(t *testing.T) {
 	sd, _ := NewMaximum(3)
 	tests := []struct {
 		input float64
-		w
+		want  float64
+	}{
+		{input:
