@@ -73,4 +73,5 @@ func TestMaximumReset(t *testing.T) {
 		input float64
 		want  float64
 	}{
+		{input: 4., want: 4.},
 		{input:
