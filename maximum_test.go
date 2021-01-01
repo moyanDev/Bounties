@@ -75,4 +75,6 @@ func TestMaximumReset(t *testing.T) {
 	}{
 		{input: 4., want: 4.},
 		{input: 1.2, want: 4.},
-		{input: 5
+		{input: 5., want: 5.},
+	}
+	f
