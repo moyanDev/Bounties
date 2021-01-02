@@ -77,4 +77,5 @@ func TestMaximumReset(t *testing.T) {
 		{input: 1.2, want: 4.},
 		{input: 5., want: 5.},
 	}
-	f
+	for _, tc := range tests {
+		t
