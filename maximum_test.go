@@ -78,4 +78,4 @@ func TestMaximumReset(t *testing.T) {
 		{input: 5., want: 5.},
 	}
 	for _, tc := range tests {
-		t
+		t.Run("", func(t *testing.T) {
