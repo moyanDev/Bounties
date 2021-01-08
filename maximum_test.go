@@ -88,4 +88,6 @@ func TestMaximumReset(t *testing.T) {
 	}
 
 	sd.Reset()
-	diff := cmp.Diff(0., sd.Next
+	diff := cmp.Diff(0., sd.Next(0.), floatComparer)
+	if diff != "" {
+	
