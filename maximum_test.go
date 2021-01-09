@@ -94,4 +94,4 @@ func TestMaximumReset(t *testing.T) {
 	}
 }
 
-func
+func TestMaximumString(t *testing.T) 
