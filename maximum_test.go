@@ -98,4 +98,4 @@ func TestMaximumString(t *testing.T) {
 	sd, _ := NewMaximum(4)
 	want := "Max(4)"
 	got := sd.String()
-	diff := cmp
+	diff := cmp.Diff(want, got, flo
