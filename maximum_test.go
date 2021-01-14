@@ -100,3 +100,6 @@ func TestMaximumString(t *testing.T) {
 	got := sd.String()
 	diff := cmp.Diff(want, got, floatComparer)
 	if diff != "" {
+		t.Fatalf(diff)
+	}
+}
