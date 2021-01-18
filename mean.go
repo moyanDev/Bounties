@@ -5,4 +5,9 @@ Licensed under terms of MIT license (see LICENSE)
 
 package tago
 
-impor
+import (
+	"fmt"
+)
+
+/*
+Mean ret
