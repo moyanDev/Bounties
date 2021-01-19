@@ -10,4 +10,6 @@ import (
 )
 
 /*
-Mean returns the arithmetic mean val
+Mean returns the arithmetic mean value of the last n values.
+
+# F
