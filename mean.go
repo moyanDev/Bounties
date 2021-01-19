@@ -10,4 +10,4 @@ import (
 )
 
 /*
-Mean ret
+Mean returns the arithmetic mean val
