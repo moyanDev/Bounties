@@ -12,4 +12,6 @@ import (
 /*
 Mean returns the arithmetic mean value of the last n values.
 
-# F
+# Formula
+
+![SD formula](https://
