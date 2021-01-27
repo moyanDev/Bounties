@@ -14,4 +14,4 @@ Mean returns the arithmetic mean value of the last n values.
 
 # Formula
 
-![SD formula](https://wikimedia.org/api/rest_v1/media/
+![SD formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/9782
