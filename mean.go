@@ -18,4 +18,4 @@ Mean returns the arithmetic mean value of the last n values.
 
 Where:
 
-* _n_ - numb
+* _n_ - number of probes in observatio
