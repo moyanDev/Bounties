@@ -27,3 +27,6 @@ Where:
 # Example
 ```
 ```
+*/
+type Mean struct {
+	// 
