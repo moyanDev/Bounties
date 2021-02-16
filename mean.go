@@ -29,4 +29,4 @@ Where:
 ```
 */
 type Mean struct {
-	// number of periods (mus
+	// number of periods (must be an integer greater than 0)
