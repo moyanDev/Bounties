@@ -32,4 +32,6 @@ type Mean struct {
 	// number of periods (must be an integer greater than 0)
 	n int
 
-	// internal parameters f
+	// internal parameters for calculations
+	index int
+	cou
