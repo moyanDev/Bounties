@@ -38,3 +38,4 @@ type Mean struct {
 
 	sum float64
 
+	// slice of data needed
