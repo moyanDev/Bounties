@@ -34,4 +34,7 @@ type Mean struct {
 
 	// internal parameters for calculations
 	index int
-	cou
+	count int
+
+	sum float64
+
