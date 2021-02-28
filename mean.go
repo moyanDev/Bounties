@@ -42,4 +42,4 @@ type Mean struct {
 	data []float64
 }
 
-// NewMean creates a new Mean
+// NewMean creates a new Mean with the given numbe
