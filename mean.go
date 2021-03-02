@@ -44,3 +44,4 @@ type Mean struct {
 
 // NewMean creates a new Mean with the given number of periods
 // Example: NewMean(9)
+func NewMean(n int) 
