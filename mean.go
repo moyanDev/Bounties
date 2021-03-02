@@ -42,4 +42,5 @@ type Mean struct {
 	data []float64
 }
 
-// NewMean creates a new Mean with the given numbe
+// NewMean creates a new Mean with the given number of periods
+// Example: NewMean(9)
