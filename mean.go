@@ -46,4 +46,6 @@ type Mean struct {
 // Example: NewMean(9)
 func NewMean(n int) (*Mean, error) {
 	if n <= 0 {
-		return nil, ErrInval
+		return nil, ErrInvalidParameters
+	}
+
