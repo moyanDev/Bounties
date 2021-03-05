@@ -50,4 +50,7 @@ func NewMean(n int) (*Mean, error) {
 	}
 
 	return &Mean{
-		n:
+		n: n,
+
+		index: 0,
+		count:
