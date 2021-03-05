@@ -49,3 +49,5 @@ func NewMean(n int) (*Mean, error) {
 		return nil, ErrInvalidParameters
 	}
 
+	return &Mean{
+		n:
