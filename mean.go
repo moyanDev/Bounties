@@ -53,4 +53,8 @@ func NewMean(n int) (*Mean, error) {
 		n: n,
 
 		index: 0,
-		count:
+		count: 0,
+
+		sum: 0,
+
+		data: make(
