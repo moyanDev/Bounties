@@ -57,4 +57,8 @@ func NewMean(n int) (*Mean, error) {
 
 		sum: 0,
 
-		data: make(
+		data: make([]float64, n),
+	}, nil
+}
+
+/
