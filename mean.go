@@ -61,4 +61,4 @@ func NewMean(n int) (*Mean, error) {
 	}, nil
 }
 
-// Next takes the next input and
+// Next takes the next input and returns the next Mean valu
