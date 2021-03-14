@@ -64,4 +64,5 @@ func NewMean(n int) (*Mean, error) {
 // Next takes the next input and returns the next Mean value
 func (m *Mean) Next(input float64) float64 {
 	// add input to data
-	m.index 
+	m.index = (m.index + 1) % m.n
+	oldValue
