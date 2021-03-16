@@ -66,4 +66,6 @@ func (m *Mean) Next(input float64) float64 {
 	// add input to data
 	m.index = (m.index + 1) % m.n
 	oldValue := m.data[m.index]
-	m.da
+	m.data[m.index] = input
+
+	i
