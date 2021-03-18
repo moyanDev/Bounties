@@ -68,4 +68,5 @@ func (m *Mean) Next(input float64) float64 {
 	oldValue := m.data[m.index]
 	m.data[m.index] = input
 
-	i
+	if m.count < m.n {
+		/
