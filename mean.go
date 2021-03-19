@@ -69,4 +69,4 @@ func (m *Mean) Next(input float64) float64 {
 	m.data[m.index] = input
 
 	if m.count < m.n {
-		/
+		// not enough data for n periods
