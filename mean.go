@@ -71,4 +71,5 @@ func (m *Mean) Next(input float64) float64 {
 	if m.count < m.n {
 		// not enough data for n periods yet
 		m.count++
-		m.sum +
+		m.sum += input
+	} else {
