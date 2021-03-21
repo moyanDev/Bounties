@@ -73,4 +73,8 @@ func (m *Mean) Next(input float64) float64 {
 		m.count++
 		m.sum += input
 	} else {
-		delta := input - oldV
+		delta := input - oldValue
+		m.sum += delta
+	}
+
+	ret
