@@ -77,4 +77,7 @@ func (m *Mean) Next(input float64) float64 {
 		m.sum += delta
 	}
 
-	return m.sum / float64(m.co
+	return m.sum / float64(m.count)
+}
+
+// Reset resets
