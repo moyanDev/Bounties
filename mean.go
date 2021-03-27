@@ -80,4 +80,5 @@ func (m *Mean) Next(input float64) float64 {
 	return m.sum / float64(m.count)
 }
 
-// Reset resets the indicators to a clean stat
+// Reset resets the indicators to a clean state
+func (m *Mean) Res
