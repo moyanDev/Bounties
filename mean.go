@@ -81,4 +81,6 @@ func (m *Mean) Next(input float64) float64 {
 }
 
 // Reset resets the indicators to a clean state
-func (m *Mean) Res
+func (m *Mean) Reset() {
+	m.index = 0
+	m.count =
