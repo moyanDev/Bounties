@@ -83,4 +83,8 @@ func (m *Mean) Next(input float64) float64 {
 // Reset resets the indicators to a clean state
 func (m *Mean) Reset() {
 	m.index = 0
-	m.count =
+	m.count = 0
+
+	m.sum = 0
+
+	m.data = 
