@@ -87,4 +87,7 @@ func (m *Mean) Reset() {
 
 	m.sum = 0
 
-	m.data = 
+	m.data = make([]float64, m.n)
+}
+
+func
