@@ -91,4 +91,4 @@ func (m *Mean) Reset() {
 }
 
 func (m *Mean) String() string {
-	return fm
+	return fmt.Sprintf("Mean(%d)", m
