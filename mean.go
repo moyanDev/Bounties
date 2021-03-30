@@ -90,4 +90,5 @@ func (m *Mean) Reset() {
 	m.data = make([]float64, m.n)
 }
 
-func (m *Mean) String()
+func (m *Mean) String() string {
+	return fm
