@@ -68,3 +68,28 @@ func TestMeanNextSameValue(t *testing.T) {
 		{input: 10., want: 10.},
 		{input: 10., want: 10.},
 		{input: 10., want: 10.},
+		{input: 10., want: 10.},
+	}
+	for _, tc := range tests {
+		t.Run("", func(t *testing.T) {
+			got := sd.Next(tc.input)
+			diff := cmp.Diff(tc.want, got, floatComparer)
+			if diff != "" {
+				t.Fatalf(diff)
+			}
+		})
+	}
+}
+
+func TestMeanReset(t *testing.T) {
+	sd, _ := NewMean(4)
+	tests := []struct {
+		input float64
+		want  float64
+	}{
+		{input: 10., want: 10.},
+		{input: 20., want: 15.},
+		{input: 30., want: 20.},
+		{input: 20., want: 20.},
+	}
+	for _, tc := range tests {
