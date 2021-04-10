@@ -93,3 +93,28 @@ func TestMeanReset(t *testing.T) {
 		{input: 20., want: 20.},
 	}
 	for _, tc := range tests {
+		t.Run("", func(t *testing.T) {
+			got := sd.Next(tc.input)
+			diff := cmp.Diff(tc.want, got, floatComparer)
+			if diff != "" {
+				t.Fatalf(diff)
+			}
+		})
+	}
+
+	sd.Reset()
+	diff := cmp.Diff(10., sd.Next(10.), floatComparer)
+	if diff != "" {
+		t.Fatalf(diff)
+	}
+}
+
+func TestMeanString(t *testing.T) {
+	sd, _ := NewMean(4)
+	want := "Mean(4)"
+	got := sd.String()
+	diff := cmp.Diff(want, got, floatComparer)
+	if diff != "" {
+		t.Fatalf(diff)
+	}
+}
