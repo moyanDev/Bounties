@@ -1,2 +1,3 @@
 /*
-Copyr
+Copyright 2020 Binh Nguyen
+Lic
