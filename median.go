@@ -6,4 +6,7 @@ Licensed under terms of MIT license (see LICENSE)
 package tago
 
 import (
-	
+	"fmt"
+	"log"
+	"math/rand"
+	"t
