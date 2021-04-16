@@ -9,4 +9,8 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
-	"t
+	"time"
+)
+
+/*
+Median return
