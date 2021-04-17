@@ -13,4 +13,4 @@ import (
 )
 
 /*
-Median returns the median value of the 
+Median returns the median value of the last n values.
