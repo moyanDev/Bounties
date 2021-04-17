@@ -13,4 +13,4 @@ import (
 )
 
 /*
-Median return
+Median returns the median value of the 
