@@ -14,3 +14,7 @@ import (
 
 /*
 Median returns the median value of the last n values.
+
+Where:
+
+* _n_ - number of pr
