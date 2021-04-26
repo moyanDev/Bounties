@@ -28,4 +28,4 @@ Where:
 ```
 */
 type Median struct {
-	// nu
+	// number of periods (m
