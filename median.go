@@ -28,4 +28,7 @@ Where:
 ```
 */
 type Median struct {
-	// number of periods (must be an integer greater t
+	// number of periods (must be an integer greater than 0)
+	n int
+
+	// i
