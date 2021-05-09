@@ -33,3 +33,5 @@ type Median struct {
 
 	// internal parameters for calculations
 	index int
+
+	// slice of data needed for
