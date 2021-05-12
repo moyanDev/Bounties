@@ -38,4 +38,5 @@ type Median struct {
 	data []float64
 }
 
-// NewMedian creates a new Median with the given num
+// NewMedian creates a new Median with the given number of periods
+// Example
