@@ -38,4 +38,4 @@ type Median struct {
 	data []float64
 }
 
-// NewMedian creates a new
+// NewMedian creates a new Median with the given num
