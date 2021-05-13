@@ -40,4 +40,4 @@ type Median struct {
 
 // NewMedian creates a new Median with the given number of periods
 // Example: NewMedian(9)
-func NewMedian(n i
+func NewMedian(n int) (*Median, error) {
