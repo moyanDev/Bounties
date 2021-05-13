@@ -39,4 +39,5 @@ type Median struct {
 }
 
 // NewMedian creates a new Median with the given number of periods
-// Example
+// Example: NewMedian(9)
+func NewMedian(n i
