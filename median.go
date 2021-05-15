@@ -42,4 +42,7 @@ type Median struct {
 // Example: NewMedian(9)
 func NewMedian(n int) (*Median, error) {
 	if n <= 0 {
-		return nil, ErrIn
+		return nil, ErrInvalidParameters
+	}
+
+	retur
