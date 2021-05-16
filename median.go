@@ -45,4 +45,7 @@ func NewMedian(n int) (*Median, error) {
 		return nil, ErrInvalidParameters
 	}
 
-	retur
+	return &Median{
+		n: n,
+
+		index
