@@ -48,4 +48,6 @@ func NewMedian(n int) (*Median, error) {
 	return &Median{
 		n: n,
 
-		index
+		index: 0,
+
+		data: make([]floa
