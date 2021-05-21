@@ -54,4 +54,4 @@ func NewMedian(n int) (*Median, error) {
 	}, nil
 }
 
-// Next takes the next i
+// Next takes the next input and returns the next Median 
