@@ -56,3 +56,5 @@ func NewMedian(n int) (*Median, error) {
 
 // Next takes the next input and returns the next Median value
 func (m *Median) Next(input float64) float64 {
+	// add input to data
+	if le
