@@ -58,4 +58,5 @@ func NewMedian(n int) (*Median, error) {
 func (m *Median) Next(input float64) float64 {
 	// add input to data
 	if len(m.data) < m.n {
-		m.data = append(m.d
+		m.data = append(m.data, input)
+	} else {
