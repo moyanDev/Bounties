@@ -60,4 +60,5 @@ func (m *Median) Next(input float64) float64 {
 	if len(m.data) < m.n {
 		m.data = append(m.data, input)
 	} else {
-		m.index = m.index % m.
+		m.index = m.index % m.n
+		m.data[m.inde
