@@ -61,4 +61,6 @@ func (m *Median) Next(input float64) float64 {
 		m.data = append(m.data, input)
 	} else {
 		m.index = m.index % m.n
-		m.data[m.inde
+		m.data[m.index] = input
+	}
+	m.inde
