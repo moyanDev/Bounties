@@ -64,4 +64,4 @@ func (m *Median) Next(input float64) float64 {
 		m.data[m.index] = input
 	}
 	m.index++
-	return quickselectMed
+	return quickselectMedian(m.data, defaultP
