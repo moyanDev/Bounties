@@ -64,4 +64,7 @@ func (m *Median) Next(input float64) float64 {
 		m.data[m.index] = input
 	}
 	m.index++
-	return quickselectMedian(m.data, defaultP
+	return quickselectMedian(m.data, defaultPivotFunc)
+}
+
+// Reset reset
