@@ -67,4 +67,6 @@ func (m *Median) Next(input float64) float64 {
 	return quickselectMedian(m.data, defaultPivotFunc)
 }
 
-// Reset resets the indicators to a clean sta
+// Reset resets the indicators to a clean state
+func (m *Median) Reset() {
+	
