@@ -71,4 +71,4 @@ func (m *Median) Next(input float64) float64 {
 func (m *Median) Reset() {
 	m.index = 0
 
-	m.data = make(
+	m.data = make([]float64, 0, m.n
