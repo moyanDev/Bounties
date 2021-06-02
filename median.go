@@ -69,4 +69,6 @@ func (m *Median) Next(input float64) float64 {
 
 // Reset resets the indicators to a clean state
 func (m *Median) Reset() {
-	
+	m.index = 0
+
+	m.data = make(
