@@ -74,4 +74,5 @@ func (m *Median) Reset() {
 	m.data = make([]float64, 0, m.n)
 }
 
-func (m *Median) Str
+func (m *Median) String() string {
+	return 
