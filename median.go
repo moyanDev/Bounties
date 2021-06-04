@@ -75,4 +75,4 @@ func (m *Median) Reset() {
 }
 
 func (m *Median) String() string {
-	return 
+	return fmt.Sprintf("Median(%d)", 
