@@ -75,4 +75,7 @@ func (m *Median) Reset() {
 }
 
 func (m *Median) String() string {
-	return fmt.Sprintf("Median(%d)", 
+	return fmt.Sprintf("Median(%d)", m.n)
+}
+
+func quickselect(
