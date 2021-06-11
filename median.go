@@ -78,4 +78,6 @@ func (m *Median) String() string {
 	return fmt.Sprintf("Median(%d)", m.n)
 }
 
-func quickselect(l []float64, k int, pivotFn func([]float64) flo
+func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
+	/*
+	   
