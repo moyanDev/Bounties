@@ -80,4 +80,5 @@ func (m *Median) String() string {
 
 func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 	/*
-	   Select the kth eleme
+	   Select the kth element in l (0 based)
+	 
