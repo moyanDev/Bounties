@@ -83,4 +83,4 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 	   Select the kth element in l (0 based)
 	   :param l: List of numerics
 	   :param k: Index
-	   :param pivot_fn: Fun
+	   :param pivot_fn: Function to choose a pivot, def
