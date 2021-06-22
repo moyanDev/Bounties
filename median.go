@@ -86,4 +86,6 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 	   :param pivot_fn: Function to choose a pivot, defaults to random.choice
 	   :return: The kth element of l
 	*/
-	if len(l)
+	if len(l) == 1 {
+		if k != 0 {
+			// only
