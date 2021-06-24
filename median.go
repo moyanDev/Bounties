@@ -88,4 +88,4 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 	*/
 	if len(l) == 1 {
 		if k != 0 {
-			// only here for completeness.
+			// only here for completeness. should never happen
