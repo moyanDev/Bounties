@@ -90,4 +90,8 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 		if k != 0 {
 			// only here for completeness. should never happen
 			log.Fatal("invalid")
-		
+		}
+		return l[0]
+	}
+
+	
