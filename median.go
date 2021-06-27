@@ -95,4 +95,5 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 	}
 
 	pivot := pivotFn(l)
-	var lows, highs, pivots []floa
+	var lows, highs, pivots []float64
+	for _, v := ra
