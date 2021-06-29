@@ -99,4 +99,7 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 	for _, v := range l {
 		if v < pivot {
 			lows = append(lows, v)
-			co
+			continue
+		}
+		if v > pivot {
+		
