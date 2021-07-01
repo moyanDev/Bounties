@@ -102,4 +102,7 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 			continue
 		}
 		if v > pivot {
-			highs = append(highs, v
+			highs = append(highs, v)
+			continue
+		}
+		if v =
