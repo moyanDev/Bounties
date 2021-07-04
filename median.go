@@ -111,4 +111,5 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 		}
 	}
 
-	if k < len(lo
+	if k < len(lows) {
+		return quic
