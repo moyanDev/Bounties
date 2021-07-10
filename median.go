@@ -117,4 +117,8 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 		// We got lucky and guessed the median
 		return pivots[0]
 	} else {
-		return quickselect(highs, k-len(lows)-len(pivots
+		return quickselect(highs, k-len(lows)-len(pivots), pivotFn)
+	}
+}
+
+func q
