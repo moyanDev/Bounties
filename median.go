@@ -123,4 +123,7 @@ func quickselect(l []float64, k int, pivotFn func([]float64) float64) float64 {
 
 func quickselectMedian(l []float64, pivotFn func([]float64) float64) float64 {
 	if len(l)%2 == 1 {
-		return quickselect(l, len(l)/2, piv
+		return quickselect(l, len(l)/2, pivotFn)
+	}
+
+	return 0
