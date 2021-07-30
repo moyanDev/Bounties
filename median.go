@@ -126,4 +126,7 @@ func quickselectMedian(l []float64, pivotFn func([]float64) float64) float64 {
 		return quickselect(l, len(l)/2, pivotFn)
 	}
 
-	return 0.5 * (quickselect(l, len(l)/2-1, pivotFn) + quickselect(l, l
+	return 0.5 * (quickselect(l, len(l)/2-1, pivotFn) + quickselect(l, len(l)/2, pivotFn))
+}
+
+func
