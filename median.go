@@ -130,4 +130,4 @@ func quickselectMedian(l []float64, pivotFn func([]float64) float64) float64 {
 }
 
 func defaultPivotFunc(l []float64) float64 {
-	rand.Seed
+	rand.Seed(time.Now().Unix()
