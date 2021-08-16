@@ -1,3 +1,4 @@
 /*
 Copyright 2020 Binh Nguyen
-Licensed under
+Licensed under terms of MIT license (see LICENSE)
+*
