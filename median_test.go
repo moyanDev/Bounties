@@ -1,2 +1,3 @@
 /*
-Copyright 2020
+Copyright 2020 Binh Nguyen
+Licensed under
