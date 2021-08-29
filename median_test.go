@@ -12,4 +12,5 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestNewMedian(t *testi
+func TestNewMedian(t *testing.T) {
+	tests := ma
