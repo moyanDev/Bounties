@@ -12,4 +12,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-fu
+func TestNewMedian(t *testi
