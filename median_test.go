@@ -13,4 +13,5 @@ import (
 )
 
 func TestNewMedian(t *testing.T) {
-	tests := ma
+	tests := map[string]struct {
+		inp
