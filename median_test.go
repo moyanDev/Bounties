@@ -15,4 +15,7 @@ import (
 func TestNewMedian(t *testing.T) {
 	tests := map[string]struct {
 		input   int
-		want    *M
+		want    *Median
+		wantErr error
+	}{
+		"nega
