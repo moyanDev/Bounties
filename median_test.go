@@ -18,4 +18,4 @@ func TestNewMedian(t *testing.T) {
 		want    *Median
 		wantErr error
 	}{
-		"nega
+		"negative n": {input: -3, w
