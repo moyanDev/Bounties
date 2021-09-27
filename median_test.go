@@ -24,4 +24,5 @@ func TestNewMedian(t *testing.T) {
 	}
 
 	for name, tc := range tests {
-		t.Run(name, fu
+		t.Run(name, func(t *testing.T) {
+			
