@@ -23,4 +23,5 @@ func TestNewMedian(t *testing.T) {
 		"positive n": {input: 9, want: &Median{n: 9, data: make([]float64, 0, 9)}, wantErr: nil},
 	}
 
-	for name, tc := range 
+	for name, tc := range tests {
+		t.Run(name, fu
