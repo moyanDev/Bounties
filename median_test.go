@@ -27,4 +27,4 @@ func TestNewMedian(t *testing.T) {
 		t.Run(name, func(t *testing.T) {
 			gotSD, gotErr := NewMedian(tc.input)
 			if tc.wantErr != nil { // only check error returned if expecting one
-				assert.EqualError(t, gotErr, tc.wantErr.Error(), "must r
+				assert.EqualError(t, gotErr, tc.wantErr.Error(), "must return the corr
