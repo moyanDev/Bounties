@@ -30,3 +30,8 @@ func TestNewMedian(t *testing.T) {
 				assert.EqualError(t, gotErr, tc.wantErr.Error(), "must return the correct error")
 			}
 			assert.Equal(t, tc.want, gotSD, "must return the correct value")
+		})
+	}
+}
+
+func TestMedi
