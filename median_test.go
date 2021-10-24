@@ -34,4 +34,5 @@ func TestNewMedian(t *testing.T) {
 	}
 }
 
-func TestMedianNextOddLength(t *te
+func TestMedianNextOddLength(t *testing.T) {
+	sd, _ := Ne
