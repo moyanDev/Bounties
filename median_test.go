@@ -35,4 +35,5 @@ func TestNewMedian(t *testing.T) {
 }
 
 func TestMedianNextOddLength(t *testing.T) {
-	sd, _ := Ne
+	sd, _ := NewMedian(3)
+	tests := []struc
