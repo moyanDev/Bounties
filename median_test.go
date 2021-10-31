@@ -36,4 +36,6 @@ func TestNewMedian(t *testing.T) {
 
 func TestMedianNextOddLength(t *testing.T) {
 	sd, _ := NewMedian(3)
-	tests := []struc
+	tests := []struct {
+		input float64
+		
