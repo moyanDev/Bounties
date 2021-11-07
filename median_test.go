@@ -40,4 +40,5 @@ func TestMedianNextOddLength(t *testing.T) {
 		input float64
 		want  float64
 	}{
-		{i
+		{input: 10., want: 10.},
+		{inpu
