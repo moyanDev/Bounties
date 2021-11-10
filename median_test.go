@@ -44,4 +44,5 @@ func TestMedianNextOddLength(t *testing.T) {
 		{input: 20., want: 15.},
 		{input: 30., want: 20.},
 		{input: 15., want: 20.},
-		{inpu
+		{input: 40., want: 30.},
+		
