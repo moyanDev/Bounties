@@ -51,4 +51,5 @@ func TestMedianNextOddLength(t *testing.T) {
 		t.Run("", func(t *testing.T) {
 			got := sd.Next(tc.input)
 			diff := cmp.Diff(tc.want, got, floatComparer)
-			if
+			if diff != "" {
+				t.Fata
