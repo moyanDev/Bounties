@@ -55,4 +55,6 @@ func TestMedianNextOddLength(t *testing.T) {
 				t.Fatalf(diff)
 			}
 		})
-	
+	}
+}
+func TestMedianNextE
