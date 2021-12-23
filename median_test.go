@@ -57,4 +57,5 @@ func TestMedianNextOddLength(t *testing.T) {
 		})
 	}
 }
-func TestMedianNextEvenLength(t *testing.T
+func TestMedianNextEvenLength(t *testing.T) {
+	sd, _ := NewMedi
