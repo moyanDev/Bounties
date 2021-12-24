@@ -62,3 +62,5 @@ func TestMedianNextEvenLength(t *testing.T) {
 	tests := []struct {
 		input float64
 		want  float64
+	}{
+		{input: 10., wan
