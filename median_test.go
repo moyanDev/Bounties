@@ -60,3 +60,5 @@ func TestMedianNextOddLength(t *testing.T) {
 func TestMedianNextEvenLength(t *testing.T) {
 	sd, _ := NewMedian(4)
 	tests := []struct {
+		input float64
+		want  float64
