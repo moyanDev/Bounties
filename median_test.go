@@ -68,4 +68,6 @@ func TestMedianNextEvenLength(t *testing.T) {
 		{input: 30., want: 20.},
 		{input: 15., want: 17.5},
 		{input: 40., want: 25.},
-		{in
+		{input: 25., want: 27.5},
+	}
+	
