@@ -70,4 +70,5 @@ func TestMedianNextEvenLength(t *testing.T) {
 		{input: 40., want: 25.},
 		{input: 25., want: 27.5},
 	}
-	
+	for _, tc := range tests {
+		t.R
