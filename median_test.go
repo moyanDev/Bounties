@@ -71,4 +71,5 @@ func TestMedianNextEvenLength(t *testing.T) {
 		{input: 25., want: 27.5},
 	}
 	for _, tc := range tests {
-		t.Run("", func(t *testing.
+		t.Run("", func(t *testing.T) {
+			got := sd.Next(tc.i
