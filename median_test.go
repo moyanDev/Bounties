@@ -81,4 +81,5 @@ func TestMedianNextEvenLength(t *testing.T) {
 	}
 }
 
-func TestMedi
+func TestMedianReset(t *testing.T) {
+	sd
