@@ -82,4 +82,4 @@ func TestMedianNextEvenLength(t *testing.T) {
 }
 
 func TestMedianReset(t *testing.T) {
-	sd
+	sd, _ := NewMedian(4)
