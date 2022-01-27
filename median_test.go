@@ -83,3 +83,5 @@ func TestMedianNextEvenLength(t *testing.T) {
 
 func TestMedianReset(t *testing.T) {
 	sd, _ := NewMedian(4)
+	tests := []struct {
+		inpu
