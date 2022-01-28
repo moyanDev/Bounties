@@ -87,4 +87,5 @@ func TestMedianReset(t *testing.T) {
 		input float64
 		want  float64
 	}{
-		{input
+		{input: 10., want: 10.},
+		{input: 2
