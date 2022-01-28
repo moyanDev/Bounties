@@ -85,4 +85,6 @@ func TestMedianReset(t *testing.T) {
 	sd, _ := NewMedian(4)
 	tests := []struct {
 		input float64
-		want 
+		want  float64
+	}{
+		{input
