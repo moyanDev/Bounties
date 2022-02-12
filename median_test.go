@@ -90,4 +90,7 @@ func TestMedianReset(t *testing.T) {
 		{input: 10., want: 10.},
 		{input: 20., want: 15.},
 		{input: 30., want: 20.},
-		{input: 15., want: 17.5}
+		{input: 15., want: 17.5},
+		{input: 40., want: 25.},
+	}
+	for _, 
