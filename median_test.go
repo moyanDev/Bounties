@@ -93,4 +93,5 @@ func TestMedianReset(t *testing.T) {
 		{input: 15., want: 17.5},
 		{input: 40., want: 25.},
 	}
-	for _, tc := range tests 
+	for _, tc := range tests {
+		t.Run("", func(t 
