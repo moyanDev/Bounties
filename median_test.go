@@ -103,4 +103,5 @@ func TestMedianReset(t *testing.T) {
 		})
 	}
 
-	sd.Res
+	sd.Reset()
+	diff := cmp.Diff(25., 
