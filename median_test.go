@@ -104,4 +104,5 @@ func TestMedianReset(t *testing.T) {
 	}
 
 	sd.Reset()
-	diff := cmp.Diff(25., sd.Next(25.), f
+	diff := cmp.Diff(25., sd.Next(25.), floatComparer)
+	if diff != "" 
