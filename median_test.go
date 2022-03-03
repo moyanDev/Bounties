@@ -113,4 +113,5 @@ func TestMedianReset(t *testing.T) {
 func TestMedianString(t *testing.T) {
 	sd, _ := NewMedian(4)
 	want := "Median(4)"
-	got
+	got := sd.String()
+	diff := cm
