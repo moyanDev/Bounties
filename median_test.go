@@ -114,4 +114,4 @@ func TestMedianString(t *testing.T) {
 	sd, _ := NewMedian(4)
 	want := "Median(4)"
 	got := sd.String()
-	diff := cm
+	diff := cmp.Diff(want, got
