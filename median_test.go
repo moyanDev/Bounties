@@ -115,4 +115,7 @@ func TestMedianString(t *testing.T) {
 	want := "Median(4)"
 	got := sd.String()
 	diff := cmp.Diff(want, got, floatComparer)
-	if diff != "" 
+	if diff != "" {
+		t.Fatalf(diff)
+	}
+}
