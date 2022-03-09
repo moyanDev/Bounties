@@ -64,3 +64,28 @@ func (m *Minimum) Next(input float64) float64 {
 	if input < m.data[m.minIndex] {
 		m.minIndex = m.curIndex
 	} else if m.curIndex == m.minIndex {
+		m.minIndex = findMinIndex(m.data)
+	}
+
+	return m.data[m.minIndex]
+}
+
+func findMinIndex(data []float64) int {
+	min := math.Inf(1)
+	index := 0
+
+	for i, v := range data {
+		if v < min {
+			min = v
+			index = i
+		}
+	}
+
+	return index
+}
+
+// Reset resets the indicators to a clean state
+func (m *Minimum) Reset() {
+	data := make([]float64, m.n)
+	for i := range data {
+		data[i] = math.Inf(-1)
