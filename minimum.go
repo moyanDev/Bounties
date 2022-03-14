@@ -89,3 +89,12 @@ func (m *Minimum) Reset() {
 	data := make([]float64, m.n)
 	for i := range data {
 		data[i] = math.Inf(-1)
+	}
+	m.data = data
+	m.curIndex = 0
+	m.minIndex = 0
+}
+
+func (m *Minimum) String() string {
+	return fmt.Sprintf("Min(%d)", m.n)
+}
