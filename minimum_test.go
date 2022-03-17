@@ -87,3 +87,20 @@ func TestMinimumReset(t *testing.T) {
 			}
 		})
 	}
+
+	sd.Reset()
+	diff := cmp.Diff(8., sd.Next(8.), floatComparer)
+	if diff != "" {
+		t.Fatalf(diff)
+	}
+}
+
+func TestMinimumString(t *testing.T) {
+	sd, _ := NewMinimum(4)
+	want := "Min(4)"
+	got := sd.String()
+	diff := cmp.Diff(want, got, floatComparer)
+	if diff != "" {
+		t.Fatalf(diff)
+	}
+}
