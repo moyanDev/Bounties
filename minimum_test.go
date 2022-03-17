@@ -46,3 +46,21 @@ func TestMinimumNext(t *testing.T) {
 	tests := []struct {
 		input float64
 		want  float64
+	}{
+		{input: 4., want: 4.},
+		{input: 1.2, want: 1.2},
+		{input: 5., want: 1.2},
+		{input: 3., want: 1.2},
+		{input: 4., want: 3.},
+		{input: 6., want: 3.},
+		{input: 7., want: 4.},
+		{input: 8., want: 6.},
+		{input: -9., want: -9.},
+		{input: 0., want: -9.},
+	}
+	for _, tc := range tests {
+		t.Run("", func(t *testing.T) {
+			got := sd.Next(tc.input)
+			diff := cmp.Diff(tc.want, got, floatComparer)
+			if diff != "" {
+				t.Fatalf(diff)
