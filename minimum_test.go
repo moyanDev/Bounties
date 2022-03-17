@@ -64,3 +64,26 @@ func TestMinimumNext(t *testing.T) {
 			diff := cmp.Diff(tc.want, got, floatComparer)
 			if diff != "" {
 				t.Fatalf(diff)
+			}
+		})
+	}
+}
+
+func TestMinimumReset(t *testing.T) {
+	sd, _ := NewMinimum(3)
+	tests := []struct {
+		input float64
+		want  float64
+	}{
+		{input: 5., want: 5.},
+		{input: 7., want: 5.},
+	}
+	for _, tc := range tests {
+		t.Run("", func(t *testing.T) {
+			got := sd.Next(tc.input)
+			diff := cmp.Diff(tc.want, got, floatComparer)
+			if diff != "" {
+				t.Fatalf(diff)
+			}
+		})
+	}
