@@ -8,4 +8,6 @@ package tago
 import "fmt"
 
 /*
-MovingAverage returns the average in _n_
+MovingAverage returns the average in _n_ number of periods
+
+# Formul
