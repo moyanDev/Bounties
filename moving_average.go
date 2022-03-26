@@ -8,4 +8,4 @@ package tago
 import "fmt"
 
 /*
-Mo
+MovingAverage returns the average in _n_
