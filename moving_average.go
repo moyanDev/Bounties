@@ -10,4 +10,6 @@ import "fmt"
 /*
 MovingAverage returns the average in _n_ number of periods
 
-# Formul
+# Formula
+
+![SMA](https://wiki
