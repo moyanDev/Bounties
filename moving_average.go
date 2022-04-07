@@ -12,4 +12,4 @@ MovingAverage returns the average in _n_ number of periods
 
 # Formula
 
-![SMA](https://wikimedia.org/api/rest_v1/media/math/render/svg/e2bf0
+![SMA](https://wikimedia.org/api/rest_v1/media/math/render/svg/e2bf09dc6deaf86b36070
