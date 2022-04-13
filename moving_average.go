@@ -16,4 +16,4 @@ MovingAverage returns the average in _n_ number of periods
 
 Where:
 
-* _SMA<sub>t</sub>
+* _SMA<sub>t</sub>_ - value of simple movi
