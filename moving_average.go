@@ -16,4 +16,5 @@ MovingAverage returns the average in _n_ number of periods
 
 Where:
 
-* _SMA<sub>t</sub>_ - value of simple moving average at a point of time _
+* _SMA<sub>t</sub>_ - value of simple moving average at a point of time _t_
+* _n_ - number of periods
