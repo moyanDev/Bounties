@@ -22,4 +22,4 @@ Where:
 
 # Parameters
 
-* _n_ - number of period
+* _n_ - number of periods (integer greater
