@@ -26,3 +26,6 @@ Where:
 
 # Example
 ```
+```
+*/
+type MovingAver
