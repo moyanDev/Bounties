@@ -28,4 +28,5 @@ Where:
 ```
 ```
 */
-type MovingAver
+type MovingAverage struct {
+	// number of period
