@@ -29,4 +29,4 @@ Where:
 ```
 */
 type MovingAverage struct {
-	// number of period
+	// number of periods (must be an integer greate
