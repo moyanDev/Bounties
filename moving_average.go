@@ -34,3 +34,8 @@ type MovingAverage struct {
 
 	// internal parameters for calculations
 	index int
+	count int
+
+	sum float64
+
+	/
