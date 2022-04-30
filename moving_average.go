@@ -39,4 +39,7 @@ type MovingAverage struct {
 	sum float64
 
 	// slice of data needed for calculation
-	data [
+	data []float64
+}
+
+// NewMovingAverage 
