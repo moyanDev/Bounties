@@ -38,4 +38,4 @@ type MovingAverage struct {
 
 	sum float64
 
-	/
+	// slice of data nee
