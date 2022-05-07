@@ -44,3 +44,4 @@ type MovingAverage struct {
 
 // NewMovingAverage creates a new MovingAverage with the given number of periods
 // Example: NewMovingAverage(9)
+func NewMovingAverage
