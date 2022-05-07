@@ -42,4 +42,4 @@ type MovingAverage struct {
 	data []float64
 }
 
-// NewMovingAverage creates a new MovingA
+// NewMovingAverage creates a new MovingAverage with the giv
