@@ -46,4 +46,4 @@ type MovingAverage struct {
 // Example: NewMovingAverage(9)
 func NewMovingAverage(n int) (*MovingAverage, error) {
 	if n <= 0 {
-		return
+		return nil, ErrInvalidParame
