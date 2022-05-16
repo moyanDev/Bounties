@@ -50,3 +50,7 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 	}
 
 	return &MovingAverage{
+		n: n,
+
+		index: 0,
+		cou
