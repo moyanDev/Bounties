@@ -53,4 +53,8 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 		n: n,
 
 		index: 0,
-		cou
+		count: 0,
+
+		sum: 0,
+
+		data: make
