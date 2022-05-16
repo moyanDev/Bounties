@@ -57,4 +57,8 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 
 		sum: 0,
 
-		data: make
+		data: make([]float64, n),
+	}, nil
+}
+
+// Ne
