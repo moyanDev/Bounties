@@ -61,4 +61,5 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 	}, nil
 }
 
-// Next takes the next input and returns the next MovingAve
+// Next takes the next input and returns the next MovingAverage value
+func (ma *Movin
