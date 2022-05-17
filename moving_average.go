@@ -61,4 +61,4 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 	}, nil
 }
 
-// Ne
+// Next takes the next input and
