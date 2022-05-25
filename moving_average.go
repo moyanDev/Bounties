@@ -62,4 +62,4 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 }
 
 // Next takes the next input and returns the next MovingAverage value
-func (ma *Movin
+func (ma *MovingAverage) Next(input flo
