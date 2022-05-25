@@ -63,4 +63,5 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 
 // Next takes the next input and returns the next MovingAverage value
 func (ma *MovingAverage) Next(input float64) float64 {
-	/
+	// add input to data
+	
