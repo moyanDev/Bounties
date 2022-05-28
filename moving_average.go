@@ -65,4 +65,5 @@ func NewMovingAverage(n int) (*MovingAverage, error) {
 func (ma *MovingAverage) Next(input float64) float64 {
 	// add input to data
 	ma.index = (ma.index + 1) % ma.n
-	oldValue := ma.data[ma.index
+	oldValue := ma.data[ma.index]
+	ma.data[ma.in
