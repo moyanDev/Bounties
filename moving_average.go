@@ -68,4 +68,6 @@ func (ma *MovingAverage) Next(input float64) float64 {
 	oldValue := ma.data[ma.index]
 	ma.data[ma.index] = input
 
-	if ma.count < ma
+	if ma.count < ma.n {
+		ma.count++
+	
