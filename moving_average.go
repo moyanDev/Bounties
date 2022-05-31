@@ -73,4 +73,7 @@ func (ma *MovingAverage) Next(input float64) float64 {
 	}
 
 	ma.sum += input - oldValue
-	return ma.s
+	return ma.sum / float64(ma.count)
+}
+
+// R
