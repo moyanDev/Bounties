@@ -72,4 +72,5 @@ func (ma *MovingAverage) Next(input float64) float64 {
 		ma.count++
 	}
 
-	ma.sum += input - o
+	ma.sum += input - oldValue
+	return ma.s
