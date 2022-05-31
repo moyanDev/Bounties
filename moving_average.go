@@ -70,4 +70,6 @@ func (ma *MovingAverage) Next(input float64) float64 {
 
 	if ma.count < ma.n {
 		ma.count++
-	
+	}
+
+	ma.sum += input - o
