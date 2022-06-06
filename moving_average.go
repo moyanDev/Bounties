@@ -76,4 +76,4 @@ func (ma *MovingAverage) Next(input float64) float64 {
 	return ma.sum / float64(ma.count)
 }
 
-// Reset resets the indi
+// Reset resets the indicators to a clean state
