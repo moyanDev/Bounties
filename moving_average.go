@@ -76,4 +76,4 @@ func (ma *MovingAverage) Next(input float64) float64 {
 	return ma.sum / float64(ma.count)
 }
 
-// R
+// Reset resets the indi
