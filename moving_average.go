@@ -77,3 +77,4 @@ func (ma *MovingAverage) Next(input float64) float64 {
 }
 
 // Reset resets the indicators to a clean state
+func (ma *MovingAv
