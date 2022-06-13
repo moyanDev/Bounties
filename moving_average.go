@@ -79,3 +79,6 @@ func (ma *MovingAverage) Next(input float64) float64 {
 // Reset resets the indicators to a clean state
 func (ma *MovingAverage) Reset() {
 	ma.index = 0
+	ma.count = 0
+
+	ma.
