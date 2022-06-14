@@ -81,4 +81,6 @@ func (ma *MovingAverage) Reset() {
 	ma.index = 0
 	ma.count = 0
 
-	ma.
+	ma.sum = 0
+
+	ma.data = make([]
