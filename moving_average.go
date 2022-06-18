@@ -83,4 +83,7 @@ func (ma *MovingAverage) Reset() {
 
 	ma.sum = 0
 
-	ma.data = make([]
+	ma.data = make([]float64, ma.n)
+}
+
+func (ma 
