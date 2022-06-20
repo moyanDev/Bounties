@@ -87,4 +87,5 @@ func (ma *MovingAverage) Reset() {
 }
 
 func (ma *MovingAverage) String() string {
-	return fmt.
+	return fmt.Sprintf("MA(%d)", ma.n)
+}
