@@ -86,4 +86,5 @@ func (ma *MovingAverage) Reset() {
 	ma.data = make([]float64, ma.n)
 }
 
-func (ma *MovingAverage) String() 
+func (ma *MovingAverage) String() string {
+	return fmt.
