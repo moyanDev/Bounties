@@ -45,3 +45,32 @@ type ExponentialMovingAverage struct {
 }
 
 // NewExponentialMovingAverage creates a new ExponentialMovingAverage with the given number of periods
+// Example: NewExponentialMovingAverage(9)
+func NewExponentialMovingAverage(n int) (*ExponentialMovingAverage, error) {
+	if n <= 0 {
+		return nil, ErrInvalidParameters
+	}
+
+	return &ExponentialMovingAverage{
+		n: n,
+
+		k:       2. / (float64(n) + 1.),
+		current: 0,
+		isNew:   true,
+	}, nil
+}
+
+// Next takes the next input and returns the next ExponentialMovingAverage value
+func (ma *ExponentialMovingAverage) Next(input float64) float64 {
+	if ma.isNew {
+		ma.isNew = false
+		ma.current = input
+	} else {
+		ma.current = ma.k*input + (1.-ma.k)*ma.current
+	}
+	return ma.current
+}
+
+// Reset resets the indicators to a clean state
+func (ma *ExponentialMovingAverage) Reset() {
+	ma.isNew = true
