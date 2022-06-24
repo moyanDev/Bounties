@@ -23,3 +23,25 @@ Where:
 * _α_ - is the coefficient that represents the degree of weighting decrease, a constant smoothing factor between 0 and 1.
 
 _α_ is calculated with the following formula:
+
+![alpha formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/d9f6258e152db0644af548972bd6c50a8becf7ee)
+
+# Parameters
+
+* _n_ - number of periods (integer greater than 0)
+
+# Example
+```
+```
+*/
+type ExponentialMovingAverage struct {
+	// number of periods (must be an integer greater than 0)
+	n int
+
+	// internal parameters for calculation
+	k       float64
+	current float64
+	isNew   bool
+}
+
+// NewExponentialMovingAverage creates a new ExponentialMovingAverage with the given number of periods
