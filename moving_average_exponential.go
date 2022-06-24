@@ -74,3 +74,9 @@ func (ma *ExponentialMovingAverage) Next(input float64) float64 {
 // Reset resets the indicators to a clean state
 func (ma *ExponentialMovingAverage) Reset() {
 	ma.isNew = true
+	ma.current = 0
+}
+
+func (ma *ExponentialMovingAverage) String() string {
+	return fmt.Sprintf("EMA(%d)", ma.n)
+}
