@@ -12,4 +12,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestNewExponenti
+func TestNewExponentialMovingAverage(t *testing.T
