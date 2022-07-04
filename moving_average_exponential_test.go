@@ -12,4 +12,5 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestNewExponentialMovingAverage(t *testing.T
+func TestNewExponentialMovingAverage(t *testing.T) {
+	tests := map[string]
