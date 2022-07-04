@@ -9,4 +9,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/stretchr/testify/ass
+	"github.com/stretchr/testify/assert"
+)
+
+func TestNewExponenti
