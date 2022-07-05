@@ -13,4 +13,5 @@ import (
 )
 
 func TestNewExponentialMovingAverage(t *testing.T) {
-	tests := map[string]
+	tests := map[string]struct {
+		input   int
