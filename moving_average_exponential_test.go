@@ -16,4 +16,6 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 	tests := map[string]struct {
 		input   int
 		want    *ExponentialMovingAverage
-		wantErr err
+		wantErr error
+	}{
+		"negative n": {input: -
