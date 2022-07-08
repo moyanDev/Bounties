@@ -18,4 +18,4 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 		want    *ExponentialMovingAverage
 		wantErr error
 	}{
-		"negative n": {input: -
+		"negative n": {input: -3, want: nil, wantErr: Er
