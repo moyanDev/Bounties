@@ -20,4 +20,7 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 	}{
 		"negative n": {input: -3, want: nil, wantErr: ErrInvalidParameters},
 		"zero n":     {input: 0, want: nil, wantErr: ErrInvalidParameters},
-		"positive n": {input: 9, want: &ExponentialMovingAverage{n: 9, k: 2. / 10., isNew: true}
+		"positive n": {input: 9, want: &ExponentialMovingAverage{n: 9, k: 2. / 10., isNew: true}, wantErr: nil},
+	}
+
+	for na
