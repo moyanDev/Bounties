@@ -23,4 +23,5 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 		"positive n": {input: 9, want: &ExponentialMovingAverage{n: 9, k: 2. / 10., isNew: true}, wantErr: nil},
 	}
 
-	for name, tc := range tests
+	for name, tc := range tests {
+		t.Run(name, fun
