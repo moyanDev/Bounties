@@ -24,4 +24,5 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 	}
 
 	for name, tc := range tests {
-		t.Run(name, fun
+		t.Run(name, func(t *testing.T) {
+	
