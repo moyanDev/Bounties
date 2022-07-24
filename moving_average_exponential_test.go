@@ -27,4 +27,4 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 		t.Run(name, func(t *testing.T) {
 			gotSD, gotErr := NewExponentialMovingAverage(tc.input)
 			if tc.wantErr != nil { // only check error returned if expecting one
-				assert.Equa
+				assert.EqualError(t, gotErr, tc.wantErr.Err
