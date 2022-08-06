@@ -34,4 +34,5 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 	}
 }
 
-func TestExponentialMovingAverag
+func TestExponentialMovingAverageNext(t *testing.T) {
+	sd, _
