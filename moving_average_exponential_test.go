@@ -37,4 +37,5 @@ func TestNewExponentialMovingAverage(t *testing.T) {
 func TestExponentialMovingAverageNext(t *testing.T) {
 	sd, _ := NewExponentialMovingAverage(3)
 	tests := []struct {
-		inp
+		input float64
+		want  flo
