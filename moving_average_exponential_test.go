@@ -41,4 +41,5 @@ func TestExponentialMovingAverageNext(t *testing.T) {
 		want  float64
 	}{
 		{input: 2., want: 2.},
-		{input: 5., 
+		{input: 5., want: 3.5},
+		{input: 1., want: 2.
