@@ -46,4 +46,4 @@ func TestExponentialMovingAverageNext(t *testing.T) {
 		{input: 6.25, want: 4.25},
 	}
 	for _, tc := range tests {
-		t
+		t.Run("", func(t *testin
