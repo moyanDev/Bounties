@@ -56,4 +56,4 @@ func TestExponentialMovingAverageNext(t *testing.T) {
 	}
 }
 
-fu
+func TestExponentialMovingAv
