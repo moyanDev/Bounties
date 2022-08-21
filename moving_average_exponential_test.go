@@ -57,4 +57,5 @@ func TestExponentialMovingAverageNext(t *testing.T) {
 }
 
 func TestExponentialMovingAverageReset(t *testing.T) {
-	sd, _ := NewExponentialM
+	sd, _ := NewExponentialMovingAverage(3)
+	tests := []st
