@@ -60,4 +60,6 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 	sd, _ := NewExponentialMovingAverage(3)
 	tests := []struct {
 		input float64
-		w
+		want  float64
+	}{
+		{input
