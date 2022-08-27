@@ -63,4 +63,5 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 		want  float64
 	}{
 		{input: 2., want: 2.},
-		{input:
+		{input: 5., want: 3.5},
+		{i
