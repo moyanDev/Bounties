@@ -67,4 +67,5 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 		{input: 1., want: 2.25},
 	}
 	for _, tc := range tests {
-		t.Run("", func(t *testin
+		t.Run("", func(t *testing.T) {
+			got := sd.Next(tc.
