@@ -76,4 +76,6 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 		})
 	}
 	diff := cmp.Diff(4., sd.Next(4.), floatComparer)
-	if di
+	if diff == "" {
+		t.Fatal(diff)
+	}
