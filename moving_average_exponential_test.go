@@ -87,4 +87,5 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 	}
 }
 
-func TestExponentialMovingAverageString(t
+func TestExponentialMovingAverageString(t *testing.T) {
+	sd, _ := N
