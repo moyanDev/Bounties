@@ -87,4 +87,4 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 	}
 }
 
-func TestExponentia
+func TestExponentialMovingAverageString(t
