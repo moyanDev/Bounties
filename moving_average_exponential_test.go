@@ -90,4 +90,5 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 func TestExponentialMovingAverageString(t *testing.T) {
 	sd, _ := NewExponentialMovingAverage(4)
 	want := "EMA(4)"
-	go
+	got := sd.String()
+	diff
