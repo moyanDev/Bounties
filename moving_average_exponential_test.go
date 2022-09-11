@@ -88,4 +88,4 @@ func TestExponentialMovingAverageReset(t *testing.T) {
 }
 
 func TestExponentialMovingAverageString(t *testing.T) {
-	sd, _ := N
+	sd, _ := NewExponentialMovingAverage(4)
