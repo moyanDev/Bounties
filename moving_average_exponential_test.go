@@ -91,4 +91,4 @@ func TestExponentialMovingAverageString(t *testing.T) {
 	sd, _ := NewExponentialMovingAverage(4)
 	want := "EMA(4)"
 	got := sd.String()
-	diff
+	diff := cmp.Diff(want, got, float
