@@ -15,3 +15,28 @@ import (
 
 func TestNewMovingAverage(t *testing.T) {
 	tests := map[string]struct {
+		input   int
+		want    *MovingAverage
+		wantErr error
+	}{
+		"negative n": {input: -3, want: nil, wantErr: ErrInvalidParameters},
+		"zero n":     {input: 0, want: nil, wantErr: ErrInvalidParameters},
+		"positive n": {input: 9, want: &MovingAverage{n: 9, data: make([]float64, 9)}, wantErr: nil},
+	}
+
+	for name, tc := range tests {
+		t.Run(name, func(t *testing.T) {
+			gotSD, gotErr := NewMovingAverage(tc.input)
+			if tc.wantErr != nil { // only check error returned if expecting one
+				assert.EqualError(t, gotErr, tc.wantErr.Error(), "must return the correct error")
+			}
+			assert.Equal(t, tc.want, gotSD, "must return the correct value")
+		})
+	}
+}
+
+func TestMovingAverageNext(t *testing.T) {
+	sd, _ := NewMovingAverage(4)
+	tests := []struct {
+		input float64
+		want  float64
