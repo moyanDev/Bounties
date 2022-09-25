@@ -84,3 +84,15 @@ func TestMovingAverageReset(t *testing.T) {
 	diff := cmp.Diff(20., sd.Next(20.), floatComparer)
 	if diff != "" {
 		t.Fatalf(diff)
+	}
+}
+
+func TestMovingAverageString(t *testing.T) {
+	sd, _ := NewMovingAverage(4)
+	want := "MA(4)"
+	got := sd.String()
+	diff := cmp.Diff(want, got, floatComparer)
+	if diff != "" {
+		t.Fatalf(diff)
+	}
+}
