@@ -58,3 +58,29 @@ func TestMovingAverageNext(t *testing.T) {
 			}
 		})
 	}
+}
+
+func TestMovingAverageReset(t *testing.T) {
+	sd, _ := NewMovingAverage(4)
+	tests := []struct {
+		input float64
+		want  float64
+	}{
+		{input: 4., want: 4.},
+		{input: 5., want: 4.5},
+		{input: 6., want: 5.},
+	}
+	for _, tc := range tests {
+		t.Run("", func(t *testing.T) {
+			got := sd.Next(tc.input)
+			diff := cmp.Diff(tc.want, got, floatComparer)
+			if diff != "" {
+				t.Fatalf(diff)
+			}
+		})
+	}
+
+	sd.Reset()
+	diff := cmp.Diff(20., sd.Next(20.), floatComparer)
+	if diff != "" {
+		t.Fatalf(diff)
