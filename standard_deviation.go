@@ -79,3 +79,25 @@ func (sd *StandardDeviation) Next(input float64) float64 {
 	sd.index = (sd.index + 1) % sd.n
 	oldValue := sd.data[sd.index]
 	sd.data[sd.index] = input
+
+	if sd.count < sd.n {
+		// not enough data for n periods yet
+		sd.count++
+		delta := input - sd.m
+		sd.m += delta / float64(sd.count)
+		delta2 := input - sd.m
+		sd.m2 += delta * delta2
+	} else {
+		oldM := sd.m
+		delta := input - oldValue
+		sd.m += delta / float64(sd.n)
+
+		delta2 := input - sd.m + oldValue - oldM
+		sd.m2 += delta * delta2
+	}
+
+	return math.Sqrt(sd.m2 / float64(sd.count))
+}
+
+// Reset resets the indicators to a clean state
+func (sd *StandardDeviation) Reset() {
