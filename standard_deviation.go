@@ -35,3 +35,26 @@ sd.Next(10.)
 sd.Next(20.)
 sd.Next(30.)
 sd.Next(20.)
+sd.Next(10.)
+```
+*/
+type StandardDeviation struct {
+	// number of periods (must be an integer greater than 0)
+	n int
+
+	// internal parameters for calculations
+	index int
+	count int
+
+	m  float64
+	m2 float64
+
+	// slice of data needed for calculation
+	data []float64
+}
+
+// NewStandardDeviation creates a new StandardDeviation with the given number of periods
+// Example: NewStandardDeviation(9)
+func NewStandardDeviation(n int) (*StandardDeviation, error) {
+	if n <= 0 {
+		return nil, ErrInvalidParameters
