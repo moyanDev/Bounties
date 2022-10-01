@@ -58,3 +58,24 @@ type StandardDeviation struct {
 func NewStandardDeviation(n int) (*StandardDeviation, error) {
 	if n <= 0 {
 		return nil, ErrInvalidParameters
+	}
+
+	return &StandardDeviation{
+		n: n,
+
+		index: 0,
+		count: 0,
+
+		m:  0,
+		m2: 0,
+
+		data: make([]float64, n),
+	}, nil
+}
+
+// Next takes the next input and returns the next StandardDeviation value
+func (sd *StandardDeviation) Next(input float64) float64 {
+	// add input to data
+	sd.index = (sd.index + 1) % sd.n
+	oldValue := sd.data[sd.index]
+	sd.data[sd.index] = input
