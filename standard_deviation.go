@@ -101,3 +101,15 @@ func (sd *StandardDeviation) Next(input float64) float64 {
 
 // Reset resets the indicators to a clean state
 func (sd *StandardDeviation) Reset() {
+	sd.index = 0
+	sd.count = 0
+
+	sd.m = 0
+	sd.m2 = 0
+
+	sd.data = make([]float64, sd.n)
+}
+
+func (sd *StandardDeviation) String() string {
+	return fmt.Sprintf("SD(%d)", sd.n)
+}
