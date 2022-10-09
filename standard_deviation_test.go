@@ -6,4 +6,6 @@ Licensed under terms of MIT license (see LICENSE)
 package tago
 
 import (
-	
+	"testing"
+
+	"github.c
