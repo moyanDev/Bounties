@@ -8,4 +8,4 @@ package tago
 import (
 	"testing"
 
-	"github.c
+	"github.com/google/go-cmp/cmp"
