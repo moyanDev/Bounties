@@ -12,4 +12,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Tes
+func TestNewStandardDeviation(t *
