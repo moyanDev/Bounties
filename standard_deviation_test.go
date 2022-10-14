@@ -12,4 +12,5 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestNewStandardDeviation(t *
+func TestNewStandardDeviation(t *testing.T) {
+	tests := map[stri
