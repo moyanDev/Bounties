@@ -14,4 +14,5 @@ import (
 
 func TestNewStandardDeviation(t *testing.T) {
 	tests := map[string]struct {
-		inpu
+		input   int
+		want    *St
