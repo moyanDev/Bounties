@@ -16,4 +16,6 @@ func TestNewStandardDeviation(t *testing.T) {
 	tests := map[string]struct {
 		input   int
 		want    *StandardDeviation
-		wantEr
+		wantErr error
+	}{
+		"negative n": {inp
