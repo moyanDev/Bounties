@@ -18,4 +18,4 @@ func TestNewStandardDeviation(t *testing.T) {
 		want    *StandardDeviation
 		wantErr error
 	}{
-		"negative n": {input: -3, want: nil, wantErr
+		"negative n": {input: -3, want: nil, wantErr: ErrInvalidParameters
