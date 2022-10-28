@@ -20,4 +20,7 @@ func TestNewStandardDeviation(t *testing.T) {
 	}{
 		"negative n": {input: -3, want: nil, wantErr: ErrInvalidParameters},
 		"zero n":     {input: 0, want: nil, wantErr: ErrInvalidParameters},
-		"positive n": {input: 9, want: &StandardDeviation{n: 9, data: make([]float64, 9)}, wantE
+		"positive n": {input: 9, want: &StandardDeviation{n: 9, data: make([]float64, 9)}, wantErr: nil},
+	}
+
+	for name
