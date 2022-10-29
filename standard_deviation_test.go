@@ -23,4 +23,5 @@ func TestNewStandardDeviation(t *testing.T) {
 		"positive n": {input: 9, want: &StandardDeviation{n: 9, data: make([]float64, 9)}, wantErr: nil},
 	}
 
-	for name
+	for name, tc := range tests {
+		
