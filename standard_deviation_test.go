@@ -25,4 +25,4 @@ func TestNewStandardDeviation(t *testing.T) {
 
 	for name, tc := range tests {
 		t.Run(name, func(t *testing.T) {
-			gotSD, gotErr := NewSt
+			gotSD, gotErr := NewStandardDeviation(tc.input
