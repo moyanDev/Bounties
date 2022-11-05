@@ -27,4 +27,6 @@ func TestNewStandardDeviation(t *testing.T) {
 		t.Run(name, func(t *testing.T) {
 			gotSD, gotErr := NewStandardDeviation(tc.input)
 			if tc.wantErr != nil { // only check error returned if expecting one
-				assert.EqualError(t, gotErr, tc.wantErr.Error(), "must return the 
+				assert.EqualError(t, gotErr, tc.wantErr.Error(), "must return the correct error")
+			}
+		
