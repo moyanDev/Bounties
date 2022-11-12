@@ -34,4 +34,4 @@ func TestNewStandardDeviation(t *testing.T) {
 	}
 }
 
-func Test
+func TestNextStandardDeviation(t *t
