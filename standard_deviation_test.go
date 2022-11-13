@@ -35,4 +35,4 @@ func TestNewStandardDeviation(t *testing.T) {
 }
 
 func TestNextStandardDeviation(t *testing.T) {
-	sd, _
+	sd, _ := NewStandardDeviation(4)
