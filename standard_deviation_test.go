@@ -36,3 +36,5 @@ func TestNewStandardDeviation(t *testing.T) {
 
 func TestNextStandardDeviation(t *testing.T) {
 	sd, _ := NewStandardDeviation(4)
+	tests := []struct {
+		i
