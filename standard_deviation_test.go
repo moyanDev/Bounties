@@ -38,4 +38,6 @@ func TestNextStandardDeviation(t *testing.T) {
 	sd, _ := NewStandardDeviation(4)
 	tests := []struct {
 		input float64
-		want 
+		want  float64
+	}{
+		{input: 10., want: 0.}
