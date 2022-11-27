@@ -44,4 +44,5 @@ func TestNextStandardDeviation(t *testing.T) {
 		{input: 20., want: 5.},
 		{input: 30., want: 8.165},
 		{input: 20., want: 7.071},
-		{input: 10
+		{input: 10., want: 7.071},
+		{inp
