@@ -46,3 +46,5 @@ func TestNextStandardDeviation(t *testing.T) {
 		{input: 20., want: 7.071},
 		{input: 10., want: 7.071},
 		{input: 100., want: 35.355},
+	}
+	for _, tc := range tests {
