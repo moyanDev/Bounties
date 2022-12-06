@@ -49,4 +49,5 @@ func TestNextStandardDeviation(t *testing.T) {
 	}
 	for _, tc := range tests {
 		t.Run("", func(t *testing.T) {
-			got := sd.Ne
+			got := sd.Next(tc.input)
+			diff := cmp
