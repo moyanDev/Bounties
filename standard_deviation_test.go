@@ -58,4 +58,4 @@ func TestNextStandardDeviation(t *testing.T) {
 	}
 }
 
-func TestStandardDeviationNex
+func TestStandardDeviationNextSameValue(t *testing.T) {
