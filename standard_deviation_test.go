@@ -59,3 +59,4 @@ func TestNextStandardDeviation(t *testing.T) {
 }
 
 func TestStandardDeviationNextSameValue(t *testing.T) {
+	sd, _ := NewStanda
