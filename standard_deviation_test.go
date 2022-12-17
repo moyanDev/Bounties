@@ -60,4 +60,5 @@ func TestNextStandardDeviation(t *testing.T) {
 
 func TestStandardDeviationNextSameValue(t *testing.T) {
 	sd, _ := NewStandardDeviation(3)
-	tests 
+	tests := []struct {
+		input fl
