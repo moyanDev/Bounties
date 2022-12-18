@@ -65,4 +65,6 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 		want  float64
 	}{
 		{input: 10., want: 0.},
-		{input: 10., want:
+		{input: 10., want: 0.},
+		{input: 10., want: 0.},
+		
