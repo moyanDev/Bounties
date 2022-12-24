@@ -67,4 +67,6 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 		{input: 10., want: 0.},
 		{input: 10., want: 0.},
 		{input: 10., want: 0.},
-		{input: 10., want: 
+		{input: 10., want: 0.},
+	}
+	for _, tc := range tests {
