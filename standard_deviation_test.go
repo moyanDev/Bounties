@@ -70,3 +70,4 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 		{input: 10., want: 0.},
 	}
 	for _, tc := range tests {
+		t.Run("", func(
