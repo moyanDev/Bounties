@@ -71,4 +71,5 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 	}
 	for _, tc := range tests {
 		t.Run("", func(t *testing.T) {
-			got
+			got := sd.Next(tc.input)
+			diff :
