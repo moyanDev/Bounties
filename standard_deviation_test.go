@@ -73,4 +73,5 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 		t.Run("", func(t *testing.T) {
 			got := sd.Next(tc.input)
 			diff := cmp.Diff(tc.want, got, floatComparer)
-			i
+			if diff != "" {
+				t.Fatalf(
