@@ -77,4 +77,7 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 				t.Fatalf(diff)
 			}
 		})
-	
+	}
+}
+
+func TestStandardDev
