@@ -80,4 +80,4 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 	}
 }
 
-func TestStandardDev
+func TestStandardDeviationReset(t *testi
