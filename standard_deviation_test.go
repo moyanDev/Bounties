@@ -81,4 +81,5 @@ func TestStandardDeviationNextSameValue(t *testing.T) {
 }
 
 func TestStandardDeviationReset(t *testing.T) {
-	sd, _ := New
+	sd, _ := NewStandardDeviation(4)
+	tests := [
