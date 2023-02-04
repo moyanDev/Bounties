@@ -87,4 +87,5 @@ func TestStandardDeviationReset(t *testing.T) {
 		want  float64
 	}{
 		{input: 10., want: 0.},
-		{input: 20., wa
+		{input: 20., want: 5.},
+		{input: 30., w
