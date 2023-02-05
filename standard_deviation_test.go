@@ -88,4 +88,6 @@ func TestStandardDeviationReset(t *testing.T) {
 	}{
 		{input: 10., want: 0.},
 		{input: 20., want: 5.},
-		{input: 30., w
+		{input: 30., want: 8.165},
+	}
+	
