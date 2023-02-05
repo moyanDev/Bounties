@@ -91,4 +91,5 @@ func TestStandardDeviationReset(t *testing.T) {
 		{input: 30., want: 8.165},
 	}
 	for _, tc := range tests {
-		t.Run("", func(t *test
+		t.Run("", func(t *testing.T) {
+			got := sd.Next
