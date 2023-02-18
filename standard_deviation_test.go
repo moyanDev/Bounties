@@ -100,4 +100,5 @@ func TestStandardDeviationReset(t *testing.T) {
 		})
 	}
 
-	sd
+	sd.Reset()
+	diff := cmp.
