@@ -107,4 +107,5 @@ func TestStandardDeviationReset(t *testing.T) {
 	}
 }
 
-func TestStandardDeviationS
+func TestStandardDeviationString(t *testing.T) {
+	sd, _ := 
