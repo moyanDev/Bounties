@@ -101,4 +101,5 @@ func TestStandardDeviationReset(t *testing.T) {
 	}
 
 	sd.Reset()
-	diff := cmp.Diff(0., sd.Next(20.), fl
+	diff := cmp.Diff(0., sd.Next(20.), floatComparer)
+	if diff != 
