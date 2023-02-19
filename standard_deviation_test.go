@@ -107,4 +107,4 @@ func TestStandardDeviationReset(t *testing.T) {
 	}
 }
 
-fun
+func TestStandardDeviationS
