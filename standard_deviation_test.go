@@ -108,4 +108,5 @@ func TestStandardDeviationReset(t *testing.T) {
 }
 
 func TestStandardDeviationString(t *testing.T) {
-	sd, _ := 
+	sd, _ := NewStandardDeviation(4)
+	want
