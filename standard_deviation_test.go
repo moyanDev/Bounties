@@ -110,4 +110,5 @@ func TestStandardDeviationReset(t *testing.T) {
 func TestStandardDeviationString(t *testing.T) {
 	sd, _ := NewStandardDeviation(4)
 	want := "SD(4)"
-	got := sd
+	got := sd.String()
+	diff := cmp.Diff(
