@@ -111,4 +111,5 @@ func TestStandardDeviationString(t *testing.T) {
 	sd, _ := NewStandardDeviation(4)
 	want := "SD(4)"
 	got := sd.String()
-	diff := cmp.Diff(want, got, floatC
+	diff := cmp.Diff(want, got, floatComparer)
+	if diff != ""
